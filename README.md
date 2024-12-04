@@ -24,3 +24,12 @@ ___
 - String search again to find all ranges of don't() => do()
 - If any of these ranges contain the match, just not sum it.
 ___
+# Day 4
+#### Part 1
+- Simple way is just create 2d array, find X then find all surrounding 8 directions to find the XMAS pattern
+- Another way, in this project, is to consider all vertical, diagon as a normal line, then use Regex or string search to find the XMAS pattern. 
+- It's just hard when we build these diagonal list when findind a generic way to iterate. Key is that 1 end of each diagonal is from the square edge, then all other points are +-1 cal
+#### Part 2
+- Use simple way, find the A then all surrouding.
+- Just need to check to ensure the pattern which we cannot have two M or two S opposite through A
+___

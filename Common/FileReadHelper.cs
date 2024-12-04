@@ -30,4 +30,26 @@ public class FileReadHelper
             actionOnContent(content);
         }
     }
+
+    public static async Task ReadLineAsync(Action<string, int> actionByLine)
+    {
+        using (var stream = new StreamReader(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Input.txt")))
+        {
+            string line;
+            int index = -1;
+            while ((line = await stream.ReadLineAsync()) is not null)
+            {
+                index++;
+                try
+                {
+                    actionByLine(line, index);
+                }
+                catch (System.Exception)
+                {
+                    System.Console.WriteLine("Failed at: {0}", line);
+                    throw;
+                }
+            }
+        }
+    }
 }
