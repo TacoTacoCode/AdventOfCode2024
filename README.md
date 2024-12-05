@@ -33,3 +33,12 @@ ___
 - Use simple way, find the A then all surrouding.
 - Just need to check to ensure the pattern which we cannot have two M or two S opposite through A
 ___
+# Day 5
+#### Part 1
+- From secion 1, we can see which node should be after which node, means that some node should be child of other node
+- So, a simple approach is that we can have some thing to mark all nodes which are children of a node
+- Then the problem is just continuously checking if the next number is a child of current or not.
+#### Part 2
+- Adding a fix means that we should swap wrong node so the order can be preserved.
+- Maybe it's just one swap or multiple swaps needed, so recursive swap and check
+___
