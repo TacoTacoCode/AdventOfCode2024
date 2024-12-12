@@ -42,3 +42,12 @@ ___
 - Adding a fix means that we should swap wrong node so the order can be preserved.
 - Maybe it's just one swap or multiple swaps needed, so recursive swap and check
 ___
+# Day 6
+#### Part 1
+- Easy one, just do some index addition to move arround the room and counting
+- Use Complex to hold cordinate and add offset, then a HashSet for duplicating and counting
+#### Part 2
+- Took a while, but we know that obstacle can only be put on path in Part 1
+- So, we can loop through the path we store, put an obstacle and see if the guard is moving to the same position with same direction
+#### Also add a DisplayDay6 project to see how the guard run
+___
