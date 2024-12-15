@@ -51,3 +51,19 @@ ___
 - So, we can loop through the path we store, put an obstacle and see if the guard is moving to the same position with same direction
 #### Also add a DisplayDay6 project to see how the guard run
 ___
+# Day 6
+#### Part 1
+- Easy one, just do some index addition to move arround the room and counting
+- Use Complex to hold cordinate and add offset, then a HashSet for duplicating and counting
+#### Part 2
+- Took a while, but we know that obstacle can only be put on path in Part 1
+- So, we can loop through the path we store, put an obstacle and see if the guard is moving to the same position with same direction
+#### Also add a DisplayDay6 project to see how the guard run
+___
+# Day 7
+#### Part 1
+- Trying all possiple solution by using recursion
+#### Part 2
+- Similar to part1, we just need to figure out how to concat 2 numbers without conversing since it creats too much string
+- So, when concat 2 numbers, we find number of zero need to add to num1, then do some multiply and addition to concat.
+___
