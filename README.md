@@ -67,3 +67,11 @@ ___
 - Similar to part1, we just need to figure out how to concat 2 numbers without conversing since it creats too much string
 - So, when concat 2 numbers, we find number of zero need to add to num1, then do some multiply and addition to concat.
 ___
+# Day 8
+#### Part 1
+- Really simple day, find distance between nodes of same antena, then find the next, revious node
+#### Part 2
+- Instead of find first next, previous, find all.
+- So, we just need a while loop
+___
+

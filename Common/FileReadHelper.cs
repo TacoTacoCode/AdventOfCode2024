@@ -31,12 +31,12 @@ public class FileReadHelper
         }
     }
 
-    public static async Task ReadLineAsync(Action<string, int> actionByLine)
+    public static async Task<int> ReadLineAsync(Action<string, int> actionByLine)
     {
+        int index = -1;
         using (var stream = new StreamReader(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Input.txt")))
         {
             string line;
-            int index = -1;
             while ((line = await stream.ReadLineAsync()) is not null)
             {
                 index++;
@@ -51,5 +51,6 @@ public class FileReadHelper
                 }
             }
         }
+        return index;
     }
 }
