@@ -74,4 +74,11 @@ ___
 - Instead of find first next, previous, find all.
 - So, we just need a while loop
 ___
-
+# Day 9
+#### Part 1
+- Easy part, follow the instruction to parse the input into the file id with dot string
+- Then use double pointer to check from the begining and the end to swap those file id
+#### Part 2
+- Kinda different to part1, where we have to ensure there is space for the whole file
+- So we need to get the file size, then for each size, we go from the begining to find a big enough space 
+___
