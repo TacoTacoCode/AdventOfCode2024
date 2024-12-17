@@ -82,3 +82,10 @@ ___
 - Kinda different to part1, where we have to ensure there is space for the whole file
 - So we need to get the file size, then for each size, we go from the begining to find a big enough space 
 ___
+# Day 10
+#### Part 1
+- Loop through all 0s, for each one, we try al possible
+- Then, just count those distinct
+#### Part 2
+- We just don't need to distinct, count all
+___
