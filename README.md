@@ -89,3 +89,13 @@ ___
 #### Part 2
 - We just don't need to distinct, count all
 ___
+# Day 11
+#### Part 1
+- 25 loops for doing the same thing, foreach element, generate follow the rule and add to list
+- Since there are many number which had already been generated, we know the result, so we cache to fasten the generate step
+#### Part 2
+- 75 loops are massive, so I do some counting for the result after 25 loops. Interestingly, there are a lot of duplicated number
+- Total of distinct number are very low, so we can just have some memorize counting for those duplicated 
+so we don't need to generate a number again and again
+- We can even increase to 100 for this way (use bigger number type like ulong for 100+)
+___
