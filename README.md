@@ -99,3 +99,12 @@ ___
 so we don't need to generate a number again and again
 - We can even increase to 100 for this way (use bigger number type like ulong for 100+)
 ___
+# Day 12
+#### Part 1
+- At first, this seems a hard problem since the region can happen inner another
+- But, check carefully, it's just a count if any value have either one of their 4 side open - not next to another similar one.
+- So, first parse into list of block, and store the state of each element - which side is already exist a similar one
+- Then just count 
+#### Part 2
+- After part1, part2 means that for all elements in one block has one side not covered, count number of non consecutive position they are on.
+___
