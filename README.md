@@ -108,3 +108,10 @@ ___
 #### Part 2
 - After part1, part2 means that for all elements in one block has one side not covered, count number of non consecutive position they are on.
 ___
+# Day 12
+#### Part 1
+- Just a simple system of linear equations
+- using int and float to solve
+#### Part 2
+- Bigger number => long and double
+___
