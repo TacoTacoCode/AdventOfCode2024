@@ -108,10 +108,18 @@ ___
 #### Part 2
 - After part1, part2 means that for all elements in one block has one side not covered, count number of non consecutive position they are on.
 ___
-# Day 12
+# Day 13
 #### Part 1
 - Just a simple system of linear equations
 - using int and float to solve
 #### Part 2
 - Bigger number => long and double
+___
+# Day 14
+#### Part 1
+- Just a simple calculation of new position after x second, then module to the grid size to get position in grid
+#### Part 2
+- Wild guess, I think there should be a strange line which bigger than 50% of the grid tall
+- So, have a method to get all the strange continuous line, compare the length to the minimum value
+- Surprisingly, the line is about 30% of the grid, and it's the border of the tree, not the middle tree line at all 
 ___
