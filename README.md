@@ -123,3 +123,15 @@ ___
 - So, have a method to get all the strange continuous line, compare the length to the minimum value
 - Surprisingly, the line is about 30% of the grid, and it's the border of the tree, not the middle tree line at all 
 ___
+# Day 15
+#### Part 1
+- Follow the instruction to push the good around
+- If there is a line of goods, we just need to swap the first goods with the empty pos,
+then move the robot
+#### Part 2
+- We cannot use approach like part1 since 1 object contains 2 part left and right side
+- After hard time, I realize we just need to have the position of box after all loop, and moving 
+is just update the box poisition.
+- So, we have a box contains left and right, when move, we update them. The hard part is just
+finding the chain of boxes to be moved when the box is moved, then move all of them at once.
+___
